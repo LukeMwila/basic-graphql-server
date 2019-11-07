@@ -1,0 +1,48 @@
+{
+  "players": [
+    {
+      "id": "1",
+      "firstName": "Lebron",
+      "lastName": "James",
+      "teamId": "2"
+    },
+    {
+      "id": "2",
+      "firstName": "Steph",
+      "lastName": "Curry",
+      "teamId": "1"
+    },
+    {
+      "id": "3",
+      "firstName": "Anthony",
+      "lastName": "Davis",
+      "teamId": "2"
+    },
+    {
+      "id": "4",
+      "firstName": "Draymond",
+      "lastName": "Green",
+      "teamId": "1"
+    },
+    {
+      "id": "5",
+      "firstName": "Kyrie",
+      "lastName": "Irving",
+      "teamId": "3"
+    }
+  ],
+  "teams": [
+    {
+      "id": "1",
+      "name": "Golden State Warriors"
+    },
+    {
+      "id": "2",
+      "name": "Los Angeles Lakers"
+    },
+    {
+      "id": "3",
+      "name": "Brookly Nets"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "basic-graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "json:server": "json-server --watch db.json --port 3004"
+  },
+  "keywords": [],
+  "author": "Luke Mwila",
+  "license": "ISC",
+  "engines": {
+    "node": "12.7.0",
+    "npm": "6.10.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "graphql-playground-middleware-express": "^1.7.12",
+    "graphql-tag": "^2.10.1",
+    "json-server": "^0.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
