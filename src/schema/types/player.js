@@ -16,7 +16,7 @@ const Player = new GraphQLObjectType({
       type: require('./team'),
       resolve(parentValue, args) {
         return axios
-          .get(`http://localhost:3004/team/${parentValue.id}`)
+          .get(`http://localhost:3004/teams/${parentValue.teamId}`)
           .then(response => response.data);
       }
     }
